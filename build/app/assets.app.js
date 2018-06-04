@@ -5,7 +5,7 @@
 /*
 assets.app.js
 
-#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![npm package](https://img.shields.io/npm/v/npmdoc-n.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-n) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)
+#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)
 
 instruction
     1. save this script as assets.app.js
@@ -16680,7 +16680,6 @@ local.assetsDict['/assets.readmeCustomOrg.npmdoc.template.md'] = '\
 {{#unless env.npm_package_homepage}} \
 {{env.npm_package_name}} ({{env.npm_package_version}}) \
 {{/if env.npm_package_homepage}} \
-[![npm package](https://img.shields.io/npm/v/npmdoc-{{env.npm_package_name}}.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-{{env.npm_package_name}}) \
 [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-{{env.npm_package_name}}.svg)](https://travis-ci.org/npmdoc/node-npmdoc-{{env.npm_package_name}})\n\
 \n\
 #### {{env.npm_package_description}}\n\
@@ -33026,7 +33025,7 @@ local.stateInit({
         },
         "env": {
             "NODE_ENV": "test",
-            "npm_package_description": "#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![npm package](https://img.shields.io/npm/v/npmdoc-n.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-n) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)",
+            "npm_package_description": "#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)",
             "npm_package_homepage": "https://github.com/npmdoc/node-npmdoc-n",
             "npm_package_name": "npmdoc-n",
             "npm_package_nameLib": "npmdoc_n",
