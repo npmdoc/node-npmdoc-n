@@ -33030,7 +33030,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/npmdoc/node-npmdoc-n",
             "npm_package_name": "npmdoc-n",
             "npm_package_nameLib": "npmdoc_n",
-            "npm_package_version": "0.0.4"
+            "npm_package_version": "2018.6.4"
         }
     }
 });
