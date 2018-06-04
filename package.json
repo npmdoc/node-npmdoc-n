@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### api documentation for  [n (v2.1.7)](https://github.com/tj/n)  [![npm package](https://img.shields.io/npm/v/npmdoc-n.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-n) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)",
+    "description": "#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![npm package](https://img.shields.io/npm/v/npmdoc-n.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-n) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "n": "*",
@@ -18,6 +18,8 @@
     "main": "lib.npmdoc_n.js",
     "name": "npmdoc-n",
     "nameAlias": "npmdoc_n",
+    "nameAliasPublish": "",
+    "nameLib": "npmdoc_n",
     "nameOriginal": "npmdoc-n",
     "os": [
         "darwin",
@@ -28,12 +30,13 @@
         "url": "https://github.com/npmdoc/node-npmdoc-n.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh",
-        "env": "env",
-        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
-        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
-        "start": "PORT=${PORT:-8080} utility2 start test.js",
-        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
     },
-    "version": "0.0.4"
+    "version": "2018.6.4"
 }
