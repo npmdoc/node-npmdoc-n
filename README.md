@@ -1,6 +1,6 @@
 # npmdoc-n
 
-#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![npm package](https://img.shields.io/npm/v/npmdoc-n.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-n) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)
+#### basic api documentation for  [n (2.1.11)](https://github.com/tj/n)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-n.svg)](https://travis-ci.org/npmdoc/node-npmdoc-n)
 
 #### Interactively Manage All Your Node Versions
 
